@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    margin: 10px;
+    text-decoration-color: #b0b0b0;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+div {
+    border-width: 1px;
+    border-color: #FF7777;
+    border-style: solid;
+    margin: auto;
+}
+
+#container {
+    margin: auto;
+    background-color: #d10aa6;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+#indicators {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    background-color: #333333;
+    width: 71%;
+    height: 100%;
+}
+
+#controls {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #333333;
+    width: 29%;
+    height: 100%;
+}
+
+.indicatorPanel {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: #16b13c;
+    min-height: 100px;
+}
+
+#agentPanel {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#pricePanel {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 29%;
+}
+
+canvas {
+    margin: auto;
+    display: block;
+    background-color: #a0d81e;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
